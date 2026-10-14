@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 48 996 332" role="img" aria-label="Toveli">
+  <title>Toveli</title>
+  <g fill="#e6b789">
+    <rect x="108" y="140" width="97" height="236" rx="48.5"/>
+    <rect x="150" y="145" width="155" height="97" rx="48.5"/>
+  </g>
+  <g fill="#101f3a">
+    <rect x="32" y="52" width="244" height="94" rx="47"/>
+    <path d="M205 120V242H156.5A48.5 48.5 0 0 1 108 193.5V178A32 32 0 0 1 140 146H150V120Z"/>
+  </g>
+  <g fill="none" stroke="#101f3a" stroke-width="25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M382 161H489M435.5 161V313"/>
+    <circle cx="564" cy="262" r="51"/>
+    <path d="M652 212 705 313 758 212"/>
+    <path d="M798 262H899A51 51 0 1 0 885 297"/>
+    <path d="M940 161V313"/>
+    <path d="M1004 214V313"/>
+  </g>
+  <circle cx="1004" cy="160" r="16" fill="#101f3a"/>
+</svg>
