@@ -25,3 +25,23 @@ button,.nav-link,.brand{user-select:none;-webkit-user-select:none;-webkit-touch-
 @media (max-width:860px){.app-shell:has(.sidebar.open)::after{content:"";position:fixed;inset:0;z-index:40;background:#0b193038;animation:fade-in 200ms var(--ease-out)}}
 @media (pointer:coarse){input,select,textarea,.global-search input{font-size:16px}}
 @media (prefers-reduced-motion:reduce){:is(.kpi,.quick-action,.restaurant-switch,.pill-button,.soft-button,.button-primary,.button-secondary,.small-btn,.icon-button,.notify-button,.account-button,.nav-link,.toast button):is(:hover,:active){transform:none}.modal{animation-name:fade-in}.sidebar{transition:none}.toast,.toast.leaving{transform:none}.account-dropdown{transform:none}@starting-style{.toast{transform:none}.account-dropdown{transform:none}}}
+/* Typography: lining tabular figures for data, balanced headings, a 12px floor for secondary text, 800 kept for headings and figures only */
+body{line-height:1.45;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale}
+.page-heading,.panel-title-row h2,.modal-header h2,.view-toolbar h2{text-wrap:balance}
+.page-description,.form-note,.quick-content small,.panel-title-row p{text-wrap:pretty}
+.page-description{max-width:68ch}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.kpi-value,.rank-no,.rank-value,.chart-scale,.bar-label,.data-table td,.analytics-kpi strong,.activity-time,.special-copy small,.page-meta,.structure-cat{font-variant-numeric:tabular-nums lining-nums}
+.kpi-value{letter-spacing:-.03em}
+.analytics-kpi strong{display:block;margin-top:6px;font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--navy)}
+.analytics-kpi small{font-size:12px;font-weight:600}
+.panel-title-row p,.quick-content small,.activity-text small,.special-copy small,.activity-time,.restaurant-switch small,.account-label small,.chart-scale,.page-meta,.form-note{font-size:12px}
+.bar-label,.bar-label small{font-size:11px}
+.status{font-size:11.5px}
+.data-table th{font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.quick-content strong,.item-cell strong,.restaurant-switch strong,.account-label strong,.activity-text strong,.rank-content strong,.special-copy strong{font-weight:700}
+.activity-text strong,.rank-content strong,.special-copy strong,.data-table td{font-size:13px}
+.quick-content strong{font-size:13.5px;letter-spacing:-.005em}
+.panel-title-row h2{letter-spacing:-.02em}
+.quick-content small,.panel-title-row p{line-height:1.45}
+.data-table th{white-space:nowrap}
