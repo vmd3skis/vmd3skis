@@ -1,6 +1,6 @@
 # Toveli Restaurant Admin — HTML/CSS/JS Demo
 
-This is a standalone front-end reproduction of the approved Toveli Restaurant Overview design, using Montserrat, navy #101f3a, warm ivory #fcfaf7, and sand #e6b789.
+This is a standalone front-end reproduction of the approved Toveli Restaurant Overview design, using Poppins, navy #101f3a, warm ivory #fcfaf7, and sand #e6b789.
 
 ## Open
 
