@@ -94,3 +94,18 @@ input[type="checkbox"]:not([role="switch"]):focus-visible{outline:3px solid #d0a
 .unit-input input::-webkit-inner-spin-button,.unit-input input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 .unit-input span{position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:12px;font-weight:600;color:var(--muted);pointer-events:none}
 @media (max-width:550px){.nutrition-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nutrition{padding:12px}}
+/* Specials: one card per promotion, three per row */
+.special-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.special-card{display:flex;flex-direction:column;gap:14px;min-width:0;padding:18px;background:var(--card);border:1px solid var(--line);border-radius:19px;box-shadow:var(--shadow);transition:transform 200ms var(--ease-out),box-shadow 200ms ease}
+.special-card-head{display:flex;align-items:center;gap:14px}
+.special-card-head img{width:64px;height:64px;flex:none;border-radius:14px;object-fit:cover}
+.special-card-title{display:grid;justify-items:start;gap:7px;min-width:0}
+.special-card h3{margin:0;font-size:16px;font-weight:800;letter-spacing:-.01em;color:var(--navy);overflow-wrap:anywhere;text-wrap:balance}
+.special-card p{flex:1;margin:0;font-size:13px;line-height:1.5;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.special-card-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:14px;border-top:1px solid var(--line)}
+.special-dates{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}
+.special-dates svg{color:var(--muted)}
+.status.scheduled{background:#e8edf5;color:#2b3f63}
+@media (hover:hover) and (pointer:fine){.special-card:hover{transform:translateY(-2px);box-shadow:0 8px 20px #1a1a2512}}
+@media (max-width:1120px){.special-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.special-grid{grid-template-columns:minmax(0,1fr)}}
